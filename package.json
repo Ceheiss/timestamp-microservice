@@ -4,13 +4,14 @@
   "description": "time stamp microservice for FCC",
   "main": "app.js",
   "scripts": {
+    "start": "node server.js",
     "test": "jest"
   },
   "keywords": [
     "FCC"
   ],
   "author": "Cristobal Heiss",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
   },
