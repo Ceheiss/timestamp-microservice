@@ -4,6 +4,7 @@ const getUtcDate = require("./utils/getUtcDate");
 const parseUnixInputDate = require("./utils/parseUnixInputDate");
 const parseRegularInputDate = require("./utils/parseRegularInputDate");
 const handleUserInput = require("./utils/handleUserInput");
+const port = process.env.PORT || 3000
 
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static("public"));
@@ -37,6 +38,6 @@ app.get("/api/timestamp/:date_string?", (req, res) => {
   }
 });
 
-const listener = app.listen(process.env.PORT || 3000, () => {
+const listener = app.listen(port, () => {
   console.log("Your app is listening on port " + listener.address().port);
 });
