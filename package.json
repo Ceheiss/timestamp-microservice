@@ -4,7 +4,7 @@
   "description": "time stamp microservice for FCC",
   "main": "app.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node app.js",
     "test": "jest"
   },
   "keywords": [
