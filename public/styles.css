@@ -1,17 +1,17 @@
 /****** Main Styling ******/
 
 body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #222;
-	background-color: #FaFaFa;
-	text-align: center;
-	line-height: 1.4em;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #222;
+  background-color: #fafafa;
+  text-align: center;
+  line-height: 1.4em;
 }
 
 .container {
-	padding: 0;
-	margin-top: 40px;
+  padding: 0;
+  margin-top: 40px;
 }
 
 h3 {
@@ -19,7 +19,8 @@ h3 {
 }
 
 .footer {
-	margin-top: 40px;
+  margin-top: 40px;
+  border-top: 2px solid #333;
 }
 
 .user-stories {
@@ -35,10 +36,10 @@ code {
   background-color: #fff;
 }
 ol {
-	list-style-position: outside;
+  list-style-position: outside;
 }
 ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 li {
@@ -49,5 +50,26 @@ li {
 }
 
 a {
-	color: #2574A9;
+  color: #2574a9;
+}
+
+.fab {
+  color: black;
+  margin-left: 15px;
+  transition: 0.3s ease-out;
+}
+
+.fab:hover {
+  color: green;
+  transform: scale(1.4);
+}
+
+footer {
+  background-color: #ddd;
+  padding: 30px;
+  margin: 0;
+}
+
+h1 {
+  color: green;
 }
